@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="milk-way.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+</head>
+<body>
+    <header>
+        <h2 class="logo" style="color: rgb(255, 255, 255);">Milky way</h2>
+          <input class="switcher" type="checkbox" id="menu">
+          <label class="open" for="menu">
+            <i><span style="color: white;" class="material-symbols-outlined">
+              menu
+              </span></i>
+          </label>
+          <nav>
+            <ul>
+              <li><a href="Cinema.html" class="sub">Planet</a></li>
+              <li><a href="Sport.html" class="sub">Earth</a></li>
+              <li><a href="Tradition.html" class="sub">Cometa</a></li>
+              <li><a href="Tradition.html" class="sub">Nasa</a></li>
+              <li><a href="Tradition.html" class="sub">Austronauts</a></li>
+              <li><a href="Tradition.html" class="sub">Black hole</a></li>
+              <li><a href="main_page.html"><button class="home">home</button></a></li>
+              <li></li>
+            </ul>
+            <label class="close" for="menu">
+             <i> <span style="color: white;" class="material-symbols-outlined">
+                close
+                </span></i>
+            </label>
+            
+          </nav>
+       </header>
+       <div>
+       <img src="Milky_Way_s_precessing_galactic_disc.gif" style="width: 100%; height: 100vh;" alt="">
+    </div>
+    <div>
+        <img class="animate_way" src="views-Milky-Way-Galaxy.webp" alt="">
+    </div>
+
+    <div>
+        <h1 class="question">Is it the Milky Way?</h1>
+        <div class="discuss">
+        <img  onclick="leftt()" id="answerrr" class="photo_0" src="candy-removebg-preview.png" alt="">
+        <div style="margin: 120px;">
+        <button  id="left" type="submit" class="left"> left</button>
+        <button type="submit" class="right">right ></button>
+    </div>
+        <img id="righttt" class="photo" src="ssc2008-2400x3000.jpg" alt="">
+    </div>
+        <p class="info">The Milky Way is the galaxy that includes our Solar System, 
+            with the name describing the galaxy's appearance from Earth: a 
+            hazy band of light seen in the night sky formed from stars that 
+            cannot be individually distinguished by the naked eye. The term 
+            Milky Way is a translation of the Latin via lactea, from the Greek 
+            γαλακτικός κύκλος (galaktikos kýklos), meaning "milky circle". From
+             Earth, the Milky Way appears as a band because its disk-shaped structure
+              is viewed from within. Galileo Galilei first resolved the band of light
+               into individual stars with his telescope in 1610. Until the early 1920s
+               , most astronomers thought that the Milky Way contained all the stars in 
+               the Universe. Following the 1920 Great Debate between the astronomers Harlow
+                Shapley and Heber Curtis, observations by Edwin Hubble showed that the 
+                Milky Way is just one of many galaxies.</p>
+    </div>
+
+    <img class="photo4" src="milky-way-galaxy-topview.jpg" alt="">
+<button class="collapsible">Why is it called the Milky Way Galaxy?</button>
+<div class="content">
+  <p>The Milky Way Galaxy takes its name from the Milky Way, the irregular luminous band of stars and gas clouds that stretches across the sky as seen from Earth.</p>
+</div>
+<button class="collapsible">How big is the Milky Way Galaxy?</button>
+<div class="content">
+  <p>The first reliable measurement of the size of the Milky Way Galaxy was made in 1917 by American astronomer Harlow Shapley. Assuming that the globular clusters outlined the Galaxy, he determined that it has a diameter of about 100,000 light-years. His values have held up remarkably well over the years.</p>
+</div>
+<button class="collapsible">Is Earth in the centre of the Milky Way Galaxy?</button>
+<div class="content">
+  <p>The solar system is about 30,000 light-years from the centre of the Milky Way Galaxy. The Galaxy itself is thought to be about 100,000 light-years in diameter.</p>
+</div>
+
+<footer>
+    <p style="color: white; margin: 100px;">Any info</p>
+</footer>
+
+    <script>
+        function leftt(){
+            document.getElementById("answerrr").scr = "DO1032.jpg";
+            alert("Cliked")
+        }
+        function rightt(){
+            document.getElementById("righttt").src = "images (1).jpg";
+        }
+        var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
+}
+    </script>
+</body>
+</html>
