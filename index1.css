@@ -1,0 +1,211 @@
+body{
+  background-color: black;
+  color: white;
+}
+#nasa{
+  text-align: center;
+  font-size: 40px;
+}
+#logo{
+  position: absolute;
+}
+#first{
+  position: absolute;
+  top: 50%;
+  right: 70px;
+  
+}
+#nasaTitle{
+  position: absolute;
+  top: 0%;
+  color: white;
+  font-size: 70px;
+  left: 43%;
+}
+#def{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 127px;
+  width: 800px;
+  left: 20%;
+}
+#text1{
+  position: absolute;
+  color: white;
+  font-size: 27Px;
+  top: 87%;
+  left: 70%;
+  width: 330px;
+}
+#second{
+  position: absolute;
+  right: 37%;
+  top: 50%;
+}
+#text2{
+  position: absolute;
+  top: 87%;
+  left: 37%;
+  color: white;
+  font-size: 27px;
+  width: 330px;
+}
+#third{
+  position: absolute;
+  right: 70%;
+  top: 328px;
+}
+#text3{
+  position: absolute;
+  top: 87%;
+  font-size: 27px;
+}
+#fourth{
+  position: absolute;
+  top: 110%;
+  right: 60%;
+}
+#text4{
+  position: absolute;
+  color: white;
+  font-size: 27px;
+  top: 152%;
+  left: 18%;
+}
+#text4_1{
+  position: absolute;
+  font-size: 27px;
+  color: white;
+  top: 156%;
+  left: 11%;
+  width: 380px;
+}
+#fifth{
+  position: absolute;
+  top: 110%;
+  right: 10%;
+}
+#text5{
+  position: absolute;
+  top: 152%;
+  left: 67%;
+  color: white;
+  font-size: 27px;
+}
+#text5_1{
+  position: absolute;
+  font-size: 27px;
+  top: 158%;
+  left: 61%;
+  width: 380px;
+}
+#some{
+  text-align: center;
+}
+.inf{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 360px){
+  #nasaTitle{
+    font-size: 25px;
+    top: 15%;
+    left: 28%;
+  }
+  #def{
+    font-size: 10px;
+    top: 23%;
+    left: 3%;
+    width: 240px;
+  }
+  #logo{
+    width: 90px;
+    height: 70px;
+  }
+  #first{
+    width: 200px;
+    height: 110px;
+    top: 83%;
+    left: 8%;
+}
+#text1{
+  font-size: 13px;
+  top: 98%;
+  left: 2%;
+}
+  #second{
+    width: 200px;
+    height: 110px;
+    top: 63%;
+ }
+ #text2{
+  font-size: 13px;
+  top:77% ;
+  left: 2%;
+ }
+  
+  #third{
+    width: 200px;
+    height: 110px;
+    left: 8%;
+}
+#text3{
+  font-size: 13px;
+  top: 58%;
+  left: 8%;
+}
+  #fourth{
+    width: 200px;
+    height: 110px;
+    top: 103%;
+    left: 8%;
+}
+  #text4{
+    font-size: 15px;
+    left: 25%;
+    top: 117%;
+  }
+  #text4_1{
+    font-size: 13px;
+    left: 12%;
+    top: 119%;
+    width: 200px;
+  }
+#fifth{
+  width: 200px;
+  height:110px;
+  top: 130%;
+  left: 8%;
+}
+#text5{
+  font-size: 15px;
+    left: 25%;
+    top: 143%;
+}
+#text5_1{
+  font-size: 13px;
+  left: 12%;
+  top: 145%;
+  width: 200px;
+}
+#date{
+  font-size: 20px;
+}
+#datetext{
+  font-size: 15px;
+  width: 250px;
+}
+#some{
+  font-size: 20px;
+  margin-right: 60px;
+}
+.inf{
+  font-size: 15px;
+  padding-right: 100px;
+
+}
+}
+
