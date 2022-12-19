@@ -252,10 +252,11 @@ a {
   }
   
   .footer__logo {
-	font-family: 'Pacifico', cursive;
+	font-family:'ZenDots-Regular';
 	font-weight: 400;
 	text-transform: lowercase;
 	font-size: 1.5rem;
+	color:#e5e5e5
   }
   
   .footer__addr h2 {
