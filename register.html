@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="registration">
+    
+        <div class="container">
+         <h1 style="color: white; margin: 20px;">Registration</h1>
+         <img src="open-eyes.jpg" alt="Avatar" class="avatar" id="avatar">
+         <form action="user.php" method="post">
+         <input type="text" class="inputt" name="nickname" placeholder="Nickname:" autocomplete="additional-name" autofocus required> <br>
+         <input type="number" class="inputt" name="age" placeholder="Age" autocomplete="on" required>
+         <input type="text" class="inputt" name="email" placeholder="Email:" autocomplete="on" required> <br>
+         <span style="color: white;">Enter Password:</span><input onkeypress="ara()" onmouseout="ara2()" type="password" class="inputt" name="password" id="parol">
+         <input onclick="document.location='main_page.html'" type="submit" value="Confirm" class="btn" placeholder="Enter password">
+     </form>
+     <button  onclick="document.location='main_page.html'" class="exit">exit</button>
+        </div>
+      </div>
+      <script>
+        function ara(){
+        document.getElementById("avatar").src = "close-eyes.jpg";
+        
+    }
+
+    function ara2(){
+        document.getElementById("avatar").src = "open-eyes.jpg";
+    }
+      </script>
+</body>
+</html>
