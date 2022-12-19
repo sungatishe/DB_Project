@@ -2,10 +2,12 @@
 	box-sizing: border-box;
     margin: 0;
     padding: 0;
+	letter-spacing: 3px;
+
     
 }
 body {
-	font-family: "Nunito";
+	font-family: 'ArcadeClassic';
 	line-height: 1.6;
 	margin: 0;
 	min-height: 100vh;
@@ -53,7 +55,9 @@ a {
 
 .main-nav a:hover {
 	color: #ffffff;
+	
 }
+
 
 
 
@@ -96,3 +100,61 @@ a {
 	}
 
 }
+
+.container {
+	margin: 100px;
+	display: flex;
+}
+#tex {
+	margin-left: 150px;
+}
+#tex2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'ArcadeClassic';
+}
+
+
+
+
+.card {
+	background-image: url('74b15cba6d83f1a7f158ad235a8ee812.gif');
+	background-size: cover;
+	background-color: grey;
+	background-blend-mode: multiply;
+}
+.tui{
+	display: grid;
+	place-items: center;
+}
+.tui h1{
+	margin-top: 20%;
+	color: white;
+	font-size: 300%;
+}
+
+#topp {
+	color: rgb(0, 116, 0); 
+	font-family: 'ArcadeClassic'; 
+	font-size:100px; 
+	border-bottom: 2px solid white;
+	text-align: left;
+	text-transform: uppercase;
+  }
+  #topp span {
+	display: inline-block;
+	animation: slideLeft 1.5s forwards;
+	opacity: 0;
+	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  @keyframes slideLeft {
+	from {
+	  opacity: 0;
+	  transform: translateX(200px);
+	} 
+	to {
+	  opacity: 1;
+	  transform: translateX(0%);
+	}
+  }
