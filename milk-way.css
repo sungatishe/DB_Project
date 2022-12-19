@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: #000000;
+
+  }
+
+  header{
+    min-height: 100px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  header ul{
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header ul .sub{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: .45;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: medium;
+  }
+  @font-face {
+    font-family: Zendots;
+    src: url(ZenDots-Regular.ttf);
+    }
+  header .logo{
+    align-items: left;
+    float: left;
+    justify-content: last baseline;
+    border-bottom: 2px solid #fff;
+    font-family: Zendots;
+  }
+  
+  @font-face {
+    font-family: Cavaet-Bold;
+    src: url(Caveat-Bold.ttf);
+  }
+  
+  header h2{
+    font-family: 'Cavaet-Bold', sans-serif;
+    font-size: 40px;
+  }
+  .switcher{
+  position: absolute;
+  visibility: hidden;
+  left: -9999px;
+  }
+  header label{
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  }
+  
+  header ul{
+  list-style-type: none;
+  display: flex;
+  }
+  
+  header .sub{
+  display: flex;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  margin-top: 10px;
+  transition: .45;
+  }
+  
+  .sub:hover{
+  color: #3498db;
+  transform: scale(1.2);
+  text-decoration: overline;
+  
+  }
+  
+  .register{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  .logo{
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-family: Zendots;
+  } 
+
+.home{
+  background-color: #0c32d9;
+  border-radius: 10px;
+font-size: 20px;
+padding: 5px;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+}  
+
+.animate_way{
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.question{
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+.photo{
+  width: 400px;
+  height: 400px;
+}
+
+.photo_0{
+  width: 400px;
+  height: 400px;
+}
+
+.left{
+  background-color: #3498db;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  
+}
+
+.right{
+  background-color: #3498db;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+}
+.discuss{
+  display: flex;
+}
+
+.info{
+  color: white;
+  padding: 60px;
+}
+
+.photo4{
+  width: 100%;
+}
+
+.collapsible {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #3498db;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #000000;
+  color: white;
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 800px){
+  .open,
+.close{
+  display: block;
+}
+
+.close{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.switcher:checked ~ nav{
+  right: 0;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #000000, #3498db);
+  right: -100%;
+  top: 0;
+  text-align: center;
+  padding: 100px 0;
+  transition: .75;
+}
+
+ul{
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0 0 300px;
+}
+
+ul a{
+  padding: 20px;
+}
+ul a:hover{
+  background-color: rgba(255, 255, 255, .03);
+}
+
+.discuss{
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+}
+}
