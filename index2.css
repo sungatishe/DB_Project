@@ -1,0 +1,94 @@
+body{
+  background-color: black;
+  color: white;
+}
+.photo{
+  display: flex;
+  justify-content: space-around;
+}
+#text1_1{
+  width: 900px;
+  margin-left: 190px;
+  
+}
+#nom{
+  text-align: center;
+}
+#text1{
+ text-align: center;
+}
+.photo2{
+  display: flex;
+  justify-content: space-around;
+
+}
+#com{
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 360px){
+   .photo{
+    display: block;
+    width: 210px;
+   }
+   #text1{
+    font-size: 15px;
+    padding-right: 100px;
+   }
+   #text1_1{
+    width: 210px;
+    font-size: 10px;
+    
+   }
+   .photo2{
+    display: block;
+   }
+   #com{
+    font-size: 15px;
+    padding-right: 100px;
+   }
+   #comdef{
+    font-size: 10px;
+    width: 247px;
+   }
+   #nom{
+    font-size: 15px;
+    padding-right: 100px;
+   }
+   #nomdef{
+    font-size: 10px;
+    width: 240px;
+   }
+   #caoma{
+    font-size: 18px;
+   }
+   #caomadef{
+    font-size: 13px;
+    width: 200px;
+   }
+   #caoda{
+    font-size: 18px;
+  }
+  #caodadef{
+    font-size: 13px;
+    width: 200px;
+  }
+
+
+
+
+
+
+  }
+@media screen and (max-width: 912px){
+  body{
+    font-size: 20px;
+    width: 750px;
+  }
+  #text1_1{
+    
+    margin-left: 30px;
+   }
+}
