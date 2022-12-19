@@ -1,53 +1,278 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document1</title>
-  <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+<link rel="stylesheet" href="css/nasa.css">
+
+
+
 </head>
 <body>
-  <div class="container">
-     <p id="nasaTitle">NASA</p>
-     <p id="def"><b>The National Aeronautics and Space Administration</b> (Eng. National Aeronautics and Space Administration, abbr.
-      <b>NASA (NASA))</b>  is an independent agency belonging to the US federal government and reporting directly to the US 
-      President. It carries out the civil space program of the country, as well as scientific research of air and outer 
-      space and scientific and technological research in the field of aviation, aeronautics and astronautics 
-      (according to the terminology adopted in the United States - astronautics).</p>
-    <img id="logo" src="https://avatars.mds.yandex.net/i?id=8f78000941ec513d0f675a692adc14631eab8920-4825925-images-thumbs&n=13" alt="" width="180px" height="110px">
-    <img src="https://avatars.mds.yandex.net/i?id=4be213a344a7260bb5832ef954f9095fb162f2f4-4960217-images-thumbs&n=13" alt="" width="100%" height="1150px">
-    <img id="first" src="https://avatars.mds.yandex.net/i?id=034cfe1820bcd3791aedfa90df6e330d6942c6cd-7661913-images-thumbs&n=13" alt="" width="350px" height="250px">
-    <p  id="text1"><a href="https://blogs.nasa.gov/spacestation/2022/12/15/nasa-provides-update-on-international-space-station-operations/">Nasa Provides Update on International Space...</a></p>
-    <img id="second" src="https://avatars.mds.yandex.net/i?id=ec7f2ca0bf5be5e7bd3deb8ade4dd5364c8c457d-3028607-images-thumbs&n=13" alt="" width="350px" height="250px">
-    <p id="text2"><a href="https://www.nasa.gov/feature/goddard/2022/nasa-webb-telescope-selected-for-bloomberg-businessweek-s-bloomberg-50">Nasa Web Telescope Selected for Bloomberg...</a> </p>
-    <img id="third" src="https://avatars.mds.yandex.net/i?id=0298c10fd5070e2de48947f1b20ff5b658e574c0-5887243-images-thumbs&n=13" alt="" width="350px" height="250px">
-    <p id="text3"><a href="https://www.nasa.gov/feature/steering-by-landmarks-on-the-moon">Steering by LandMarka - On The Moon</a></p>
-    <img id="fourth" src="https://avatars.mds.yandex.net/i?id=fe10cfef30da605c6f750ca787c12c6b10ad8ff8-8238876-images-thumbs&n=13" alt="" width="400" height="300px">
-    <p id="text4">About NASA</p>
-    <p id="text4_1"><a href="https://www.nasa.gov/press-release/nasa-s-big-2022-historic-moon-mission-webb-telescope-images-more">NASA'S Big 2022: Historic Moon Mission, Webb Telescope Images, More</a></p>
-    <img id="fifth" src="https://avatars.mds.yandex.net/i?id=e6eccd9a8c17f6a32d581bfcffa40513-4841475-images-thumbs&n=13" alt="" width="400px" height="300px">
-    <p id="text5">Web Telescope</p>
-    <p id="text5_1"><a href="https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-unveils-young-stars-in-early-stages-of-formation">NASA's Webb Univeils Young Stars in Early Stages of Formation</a></p>
+    
+
+    <header>
+        <h2 class="logo" style="color: rgb(255, 255, 255);">Space</h2>
+          <input class="switcher" type="checkbox" id="menu">
+          <label class="open" for="menu">
+            <i><span style="color: white;" class="material-symbols-outlined">
+              menu
+              </span></i>
+          </label>
+          <nav>
+            <ul>
+              <li><a href="planet.html">Planet</a></li>
+              <li><a href="cometa.html">Cometa</a></li>
+              <li><a href="nasa.html">Nasa</a></li>
+              <li><a href="austronauts.html">Austronauts</a></li>
+              <li><a href="black_hole.html">Black hole</a></li>
+              <li><a href="milk_way.html">Milk way</a></li>
+              <li><a href="home_page.html" class="active">Home</a></li>
+              <li></li>
+            </ul>
+            <label class="close" for="menu">
+             <i> <span style="color: white;" class="material-symbols-outlined">
+                close
+                </span></i>
+            </label>
+          </nav>
+       </header>
+
+       
+ <!-- Хэдер -->
+
+
+ <div class="container">
+  <p id="nasaTitle">NASA</p>
+  <p id="def"><b>The National Aeronautics and Space Administration</b> (Eng. National Aeronautics and Space Administration, abbr.
+   <b>NASA (NASA))</b>  is an independent agency belonging to the US federal government and reporting directly to the US 
+   President. It carries out the civil space program of the country, as well as scientific research of air and outer 
+   space and scientific and technological research in the field of aviation, aeronautics and astronautics 
+   (according to the terminology adopted in the United States - astronautics).</p>
+ <img id="logo" src="https://avatars.mds.yandex.net/i?id=8f78000941ec513d0f675a692adc14631eab8920-4825925-images-thumbs&n=13" alt="" width="180px" height="110px">
+ <img src="https://avatars.mds.yandex.net/i?id=4be213a344a7260bb5832ef954f9095fb162f2f4-4960217-images-thumbs&n=13" alt="" width="100%" height="1150px">
+ <img id="first" src="https://avatars.mds.yandex.net/i?id=034cfe1820bcd3791aedfa90df6e330d6942c6cd-7661913-images-thumbs&n=13" alt="" width="350px" height="250px">
+ <p  id="text1"><a href="https://blogs.nasa.gov/spacestation/2022/12/15/nasa-provides-update-on-international-space-station-operations/" style="color: white;">Nasa Provides Update on International Space...</a></p>
+ <img id="second" src="https://avatars.mds.yandex.net/i?id=ec7f2ca0bf5be5e7bd3deb8ade4dd5364c8c457d-3028607-images-thumbs&n=13" alt="" width="350px" height="250px">
+ <p id="text2"><a href="https://www.nasa.gov/feature/goddard/2022/nasa-webb-telescope-selected-for-bloomberg-businessweek-s-bloomberg-50" style="color: white;">Nasa Web Telescope Selected for Bloomberg...</a> </p>
+ <img id="third" src="https://avatars.mds.yandex.net/i?id=0298c10fd5070e2de48947f1b20ff5b658e574c0-5887243-images-thumbs&n=13" alt="" width="350px" height="250px">
+ <p id="text3"><a href="https://www.nasa.gov/feature/steering-by-landmarks-on-the-moon" style="color: white;">Steering by LandMarka - On The Moon</a></p>
+ <img id="fourth" src="https://avatars.mds.yandex.net/i?id=fe10cfef30da605c6f750ca787c12c6b10ad8ff8-8238876-images-thumbs&n=13" alt="" width="400" height="300px">
+ <p id="text4">About NASA</p>
+ <p id="text4_1"><a href="https://www.nasa.gov/press-release/nasa-s-big-2022-historic-moon-mission-webb-telescope-images-more" style="color: white;">NASA'S Big 2022: Historic Moon Mission, Webb Telescope Images, More</a></p>
+ <img id="fifth" src="https://avatars.mds.yandex.net/i?id=e6eccd9a8c17f6a32d581bfcffa40513-4841475-images-thumbs&n=13" alt="" width="400px" height="300px">
+ <p id="text5">Web Telescope</p>
+ <p id="text5_1"><a href="https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-unveils-young-stars-in-early-stages-of-formation" style="color: white;">NASA's Webb Univeils Young Stars in Early Stages of Formation</a></p>
+</div>
+
+<h1 id="date">Data</h1>
+<p id="datetext">Images and videos obtained by NASA and its subsidiaries, including with the help of numerous telescopes and interferometers, are published in the public domain and may be freely copied[43].
+ The agency, for the second time in history, has not had a single manned spacecraft for five years: the shuttles stopped flying in 2011, and the first manned flight of the new Dragon 2 ship from SpaceX took place on May 30, 2020[44]
+ Since 2016, NASA astronauts have been taught the Russian language[45][46][47].
+ In July 2022, NASA condemned Russia for using the International Space Station for political purposes when Roscosmos released a photo showing</p>
+
+  <h1 id="hub">Hubble Space Telescope</h1>
+ <div class="photo21">
+  <div><img src="https://avatars.mds.yandex.net/i?id=466bf3392f87deab757f97f545cfc37c7f046613-7546007-images-thumbs&n=13" alt="" height="300px" width="400px"></div>
+ <div><img src="https://avatars.mds.yandex.net/i?id=637aa3cdf52145e3aff20dedbc74cac46828ee6a-7094423-images-thumbs&n=13" alt="" height="300px" width="400px"></div>
+ </div>
+ <p>A team led by researchers at the University of Montreal has found evidence that two exoplanets orbiting a red 
+   dwarf star are "water worlds," where water makes up a large fraction of the entire planet. These worlds, located 
+   in a planetary system 218 light-years away in the constellation Lyra, are unlike any planet found in our solar 
+   system.The team, led by Caroline Piaulet of the Trottier Institute for Research on Exoplanets at the University 
+   of Montreal, published a detailed study of this planetary system, known as Kepler-138, in the journal Nature 
+   Astronomy today</p>
+
+   <h1 id="nasaWorkers">NASA Workers</h1>
+   <div class="workerPhotos">
+     <img src="https://avatars.mds.yandex.net/i?id=ad9acbb5a67f78f8c7cfa7e2b727679d-5086932-images-thumbs&n=13" alt="" width="400px">
+     <img src="https://avatars.mds.yandex.net/i?id=1ab72dce555fa677a35323212538ae4764b782da-7460122-images-thumbs&n=13" alt=""  width="400px">
+     <img src="https://avatars.mds.yandex.net/i?id=bdbec87b535036062e2b51be626986fd-4146377-images-thumbs&n=13" alt="" width="400px">
+   </div>
+
+ <div class="alikhan">
+   <h1>Top 5 most Expensive Salary</h1>
+   <h1>Space Administration</h1>
+ </div>
+  
+   <div class="tab">
+   <table border="2">
+     <tr><td>1</td><td>Team Leader</td><td>57$</td></tr>
+     <tr><td>2</td><td>Mentor</td><td>45$</td></tr>
+     <tr><td>3</td><td>Program Manager</td><td>45$</td></tr>
+     <tr><td>4</td><td>Project Leader</td><td>43$</td></tr>
+     <tr><td>5</td><td>Designer</td><td>42$</td></tr>
+     <tr><td></td><td></td><td></td></tr>
+   </table>
+   
+
+  
+   <table border="2">
+     <tr><td>1</td><td>USA Kalifornia</td><td>30$</td></tr>
+     <tr><td>2</td><td>USA Texas</td><td>27$</td></tr>
+     <tr><td>3</td><td>USA Virginia</td><td>35$</td></tr>
+     <tr><td>4</td><td>USA Columbia</td><td>33$</td></tr>
+     <tr><td>5</td><td>USA MaryLand</td><td>20$</td></tr>
+     <tr><td></td><td></td><td></td></tr>
+   </table>
+ </div>
+
+
+
+ <h1  id="some">Some Information</h1>
+ <div class="inf">
+     <p><b>Subsidiaries:</b> Lyndon Johnson Space Center </p>
+      <p><b>Founder:</b> Dwight David Eisenhower</p>
+       <p><b>Headquarters:</b> Washington, USA</p>
+      <p><b>Founded:</b> July 29, 1958, United States of America</p>
+ </div>
+
+
+
+ <!-- Футер -->
+
+ <div id = "footerr">
+  <div id = "smile">
+      <br>
+      Thanks a lot 💜
   </div>
 
-  <h1 id="date">Data</h1>
-  <p id="datetext">Images and videos obtained by NASA and its subsidiaries, including with the help of numerous telescopes and interferometers, are published in the public domain and may be freely copied[43].
-    The agency, for the second time in history, has not had a single manned spacecraft for five years: the shuttles stopped flying in 2011, and the first manned flight of the new Dragon 2 ship from SpaceX took place on May 30, 2020[44]
-    Since 2016, NASA astronauts have been taught the Russian language[45][46][47].
-    In July 2022, NASA condemned Russia for using the International Space Station for political purposes when Roscosmos released a photo showing</p>
+  <div id = "stay">
+      Stay Connected
+  </div>
+  <div id = "soc">
+    <img src="D:\Рабочий стол\BonusLabPhoto\photo_2022-12-19_23-39-27.jpg" width="55px" height="55px" alt="">
+    <img src="D:\Рабочий стол\BonusLabPhoto\photo_2022-12-19_23-39-08.jpg"width="55px" height="55px" alt="">
+    <img src="D:\Рабочий стол\BonusLabPhoto\photo_2022-12-19_23-39-21.jpg"  width="55px" height="55px" alt="">
 
-    <h1  id="some">Some Information</h1>
-    <div class="inf">
-        <p><b>Subsidiaries:</b> Lyndon Johnson Space Center </p>
-         <p><b>Founder:</b> Dwight David Eisenhower</p>
-          <p><b>Headquarters:</b> Washington, USA</p>
-         <p><b>Founded:</b> July 29, 1958, United States of America</p>
-    </div>
+  </div>
+
+  <div id = "container1">
+      <div class = "txtt">
+          Solar System
+          <br>
+          <br>
+          <ul class = "txtt2">
+              <li><a href="#">Our Solar System</a></li>
+              <li><a href="#">Sun</a></li>
+              <li><a href="#">Kuiper Belt</a></li>
+              <li><a href="#">Oort Cloud</a></li>
+              <li><a href="#">About Our Solar System</a></li>
+              <li><a href="#">Eclipses</a></li>
+          </ul>
+      </div>
+      <div class = "txtt">
+          Planets
+          <br>
+          <br>
+          <ul class="txtt2">
+              <li><a href="#">Mercury</a></li>
+              <li><a href="#">Venus</a></li>
+              <li><a href="#">Earth</a></li>
+              <li><a href="#">Mars</a></li>
+              <li><a href="#">Jupiter</a></li>
+              <li><a href="#">Saturn</a></li>
+              <li><a href="#">Uranus</a></li>
+              <li><a href="#">Neptune</a></li>
+          </ul>
+      </div>
+      <div class = "txtt">
+          Asteroid, Comets & Meteors
+          <br>
+          <br>
+          <ul class="txtt2">
+              <li><a href="#">Meteors</a></li>
+              <li><a href="#">Meteorites</a></li>
+              <li><a href="#">Asteroids</a></li>
+              <li><a href="#">Comets</a></li>
+          </ul>
+      </div>
+      <div class = "txtt">
+          More
+          <br>
+          <br>
+          <ul class="txtt2">
+              <li><a href="#">News</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Raw Images</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Missions</a></li>
+              <li><a href="#">Kids</a></li>
+              <li><a href="#">Interactives</a></li>
+              <li><a href="#">Basics of Space Flight</a></li>
+              <li><a href="#">People</a></li>
+          </ul>
+      </div>
+      
+  </div>
+  
+</div>
 
 
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">Space</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      5534 Somewhere In. The World 22193-10212<br>
+          
+      <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Online</a>
+        </li>
+
+        <li>
+          <a href="#">Print</a>
+        </li>
+            
+        <li>
+          <a href="#">Alternative Ads</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Technology</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Hardware Design</a>
+        </li>
+        
+        <li>
+          <a href="#">Software Design</a>
+        </li>
+        
+        <li>
+          <a href="#">Digital Signage</a>
+        </li>
+        
+        
+      </ul>
+    </li>
+    
+    
+  </ul>
   
   
-  
+</footer>
+
+
 </body>
 </html>
